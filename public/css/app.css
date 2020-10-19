@@ -205,6 +205,10 @@ li{
     background: #201c1c54;
 }
 
+.bg-testimony {
+    background: #f3f3f5;;
+}
+
 .services {
     color: #DEB887;
     font-weight: bold;
@@ -228,6 +232,10 @@ a.title-0:hover {
     text-decoration: none;
 }
 
+h5:hover {
+    color: burlywood !important;
+}
+
 .title-1 {
     font-size: 20px !important;
 }
@@ -243,11 +251,16 @@ a.title-0:hover {
     background: #111a22!important;  
 } 
 
+.icon {
+    font-size: 35px;
+}
 
 .icons {
     color: burlywood !important;
-    width: 43px !important;
-    height: 43px !important;
+}
+
+.icons:hover {
+    color:#85684e!important;
 }
 
 .quotes {

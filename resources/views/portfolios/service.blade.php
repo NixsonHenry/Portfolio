@@ -2,7 +2,7 @@
 
 @section('content')
     
-    <section class="container my-5 format-text2">
+    <section class="container format-text2">
         <h2 class="text-center text-uppercase my-5 py-5 services">My services</h2>
 
         <div class="row">
@@ -10,12 +10,11 @@
                 <!-- First row -->
                 <div class="row mb-4">
                     <div class="col-2">
-                    <a class="title-0" href="#"><i class="fab fa-js-square icons title-0"></i></a>
-                        <i class="fas fa-users fa-2x mb-1 yellow-text" aria-hidden="true"></i>
+                    <a class="icon" href="#"><i class="fab fa-js-square icons "></i></a>
                     </div>
 
                     <div class="col-10 mb-2">
-                        <a class="title-0" href="#"><h5 class="mb-2 font-weight-bold title-0">| Web design</h5></a>
+                        <a class="title-0" href="#"><h5 class="font-weight-bold  mb-2 font-weight-bold title-0">| Web design</h5></a>
                         <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
                     </div>
                 </div>
@@ -23,11 +22,10 @@
             <!-- Second row -->
                 <div class="row">
                     <div class="col-2">
-                    <a class="title-0" href="#"><i class="fas fa-database icons"></i></a>
-                        <i class="fas fa-gavel fa-2x mb-1 yellow-text" aria-hidden="true"></i> 
+                    <a class="icon" href="#"><i class="fas fa-database icons"></i></a>
                     </div>
                     <div class="col-10 mb-2">
-                        <a class="title-0" href="#"><h5 class="font-weight-bold mb-2 title-0">| Data science services</h5></a>
+                        <a class="title-0" href="#"><h5 class="font-weight-bold  mb-2 title-0">| Data science services</h5></a>
                         <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
                     </div>
                 </div>
@@ -37,19 +35,17 @@
             <div class="col-md-4">
                 <div class="row mb-4">
                     <div class="col-2">
-                      <a href="#"><i class="fab fa-laravel icons"></i></a>
-                         <i class="fas fa-car fa-2x mb-1 yellow-text" aria-hidden="true"></i> 
+                      <a class="icon" href="#"><i class="fab fa-laravel icons"></i></a>
                     </div>
                     <div class="col-10 mb-2">
-                        <a class="title-0" href="#"><h5 class="font-weight-bold mb-2 title-0">| Web development</h5></a>
+                        <a class="title-0" href="#"><h5 class="font-weight-bold  mb-2 title-0">| Web development</h5></a>
                         <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
                     </div>
                 </div>
             
                 <div class="row">
                     <div class="col-2">
-                    <a href="#"><i class="fas fa-table icons"></i></a>
-                       <i class="far fa-money-bill-alt fa-2x mb-1 yellow-text" aria-hidden="true"></i> %>
+                    <a class="icon" href="#"><i class="fas fa-table icons"></i></a>
                     </div>
                     <div class="col-10 mb-2">
                         <a class="title-0" href="#"><h5 class="font-weight-bold mb-2 title-0 ">| Preparing data for modeling</h5></a>
@@ -62,8 +58,7 @@
             <div class="col-md-4">
                 <div class="row mb-4">
                     <div class="col-2">
-                    <a class="title-0" href="#"><i class="fab fa-wordpress icons title-0"></i></a>
-                        <%# <i class="fas fa-university fa-2x mb-1 yellow-text" aria-hidden="true"></i> %>
+                    <a class="icon" href="#"><i class="fab fa-wordpress icons"></i></a>
                     </div>
                     <div class="col-10 mb-2">
                         <a class="title-0" href="#"><h5 class="font-weight-bold mb-2 title-0">| WordPress Development</h5></a>
@@ -73,12 +68,10 @@
 
                 <div class="row">
                     <div class="col-2">
-                        <a href="#"><i class="fas fa-server icons "></i></a>
-                        <%# <i class="fas fa-dumbbell icons"></i> %>
-                        <%# <i class="fas fa-shopping-cart fa-2x mb-1 yellow-text" aria-hidden="true"></i> %>
+                        <a class="icon" href="#"><i class="fas fa-server icons"></i></a>
                     </div>
                     <div class="col-10 mb-2">
-                        <a class="title-0" href="#"><h5 class="mb-2 title-0">| Developing & executing models</h5></a>
+                        <a class="title-0" href="#"><h5 class="font-weight-bold  mb-2 title-0">| Developing & executing models</h5></a>
                         <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda deleniti hic.</p>
                     </div>
                 </div>
@@ -88,8 +81,8 @@
   
   
   
-    <div class="container-fluid section " style="background-color: #f3f3f5;">
-        <div class="container py-5">
+    <div class="container-fluid pb-3 bg-testimony">
+        <div class="container">
         
             <div class="row">
                 <section class="mb-5 col-lg-12 col-sm-12">
@@ -97,7 +90,7 @@
 
               
                     <div class="avatar mb-4 text-center">
-                      <img src="/Kenel.jpg"
+                      <img src="/photos/Kenel.jpg"
                         class="rounded-circle img-fluid" alt="First sample avatar image">
                     </div>
 

@@ -104,36 +104,13 @@
       
     </header>
   
-  
     
-    <main class="py-1">
+    <main class="">
         @yield('content')
     </main>
- 
-    
-    <div class="container mt-5 pt-5">
-        <div class="row mt-5">
-          
-            <a href="#" class="col-lg-2 about">
-              <img class="img mr-4 mt-2" src="/photos/Nixson.jpeg">
-                  <p class="about_me">about me</p>
-            </a>
-            
-            <div class="col-lg-5 home_text ">
-                  I build beautiful & intelligent<a href="#" class="web">websites</a>
-            </div>
-      
-            <div class="col-lg-5">
-                  <p class="home_text intelligent">intelligent and beautiful <a href="#" class="web underline">Login </a></p>
-            </div>
-              
-        </div>
-    </div> 
-    
-    
-    
 
-<footer class="fixed dark pt-5 pb-3">  
+    
+<footer class="fixed dark pt-5">  
   <div class="container">
       <div class="row text-light">
           <div class="col-md-3 col-lg-3 col-xl-3 mr-auto mt-3">
